@@ -19,35 +19,9 @@ const Form = () => {
     <div className="formulario">
       <h2>Contato  
       </h2>
-        <a className="link-wpp" href='https://wa.me/5511932345062'>Saiba Mais no WhatsApp </a> 
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          placeholder="Nome"
-          value={nome}
-          onChange={(e) => setNome(e.target.value)}
-        />
-        <input
-          type="email"
-          placeholder="Email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
-
-<input
-          type="telefone"
-          placeholder="Telefone"
-          value={telefone}
-          onChange={(e) => setTelefone(e.target.value)}
-        />
-        <textarea
-          placeholder="Mensagem"
-          value={mensagem}
-          onChange={(e) => setMensagem(e.target.value)}
-        />
-        <button type="submit">Enviar</button>
-      </form>
-      <a className="instagram-link" href="https://www.instagram.com/judoca.ailton/">Página do instagram</a>
+        <a className="link-wpp" href='https://wa.me/5511972192454'>Saiba Mais no WhatsApp Clicando aqui</a> 
+      
+      <a className="instagram-link" href="https://www.instagram.com/judoca.ailton/">Clique aqui para acessar a Página do instagram </a>
     </div>
   );
 };

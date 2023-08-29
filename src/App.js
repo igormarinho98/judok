@@ -32,7 +32,7 @@ function App() {
         <a className="instagram-link" href="https://www.instagram.com/judoca.ailton/">Página do instagram</a>
       </h3>
       <h2>
-        <a className="link-wpp" href='https://wa.me/5511932345062'>Saiba Mais no WhatsApp </a> 
+        <a className="link-wpp" href='https://wa.me/5511972192454'>Saiba Mais no WhatsApp Clicando aqui</a> 
       </h2>
 
       </header>
