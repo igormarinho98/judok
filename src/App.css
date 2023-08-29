@@ -1,38 +1,80 @@
+/* Estilos do container principal */
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #007bff, #ffffff);
+  min-height: 100vh;
+  padding: 2em; /* Adicione padding para espaçamento lateral */
+  box-sizing: border-box; /* Evita que o padding altere a largura total */
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
+/* Estilos do cabeçalho */
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  padding: 2em;
+  color: white;
+  text-align: center;
+  width: 100%; /* Largura total */
+}
+
+/* Estilos da seção principal */
+.App-main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%; /* Largura total */
+}
+
+/* Estilos do card de projeto */
+.project-card {
+  border: 1px solid #ccc;
+  padding: 2em;
+  width: 100%; /* Largura total */
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 0.25em 0.375em rgba(0, 0, 0, 0.1);
+  border-radius: 0.3125em; /* 5px */
+  margin-bottom: 2em;
+}
+
+/* Estilos personalizados para os botões do carrossel */
+.carousel .control-dots {
+  position: absolute;
+  bottom: 2.625em; /* 10px */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+/* Estilos do formulário */
+.form-css {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 25em; /* 400px */
+  background-color: white;
+  padding: 2em;
+  box-shadow: 0 0 0.625em rgba(0, 0, 0, 0.1); /* 10px */
+  border-radius: 0.3125em; /* 5px */
+  width: 100%; /* Largura total */
+}
+
+/* Estilos do footer */
+.footer {
+  background-color: #333;
   color: white;
+  text-align: center;
+  padding: 1em;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  width: 100%; /* Largura total */
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer:hover {
+  opacity: 0.8;
 }

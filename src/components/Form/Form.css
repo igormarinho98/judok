@@ -1,0 +1,61 @@
+.formulario {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formulario h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .formulario form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formulario input,
+  .formulario textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .formulario button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .formulario button:hover {
+    background-color: #0056b3;
+  }
+
+  .instagram-link {
+    color: #E1306C; /* Cor do Instagram */
+    text-decoration: none; /* Remover sublinhado */
+    font-weight: bold; /* Texto em negrito */
+    font-size: 16px; /* Tamanho da fonte */
+  }
+
+  /* Estilos para o link quando passar o mouse por cima */
+  .instagram-link:hover {
+    color: #C13584; /* Cor do Instagram quando hover */
+  }
+
+  .link-wpp {
+    text-decoration: none;
+    color: #25d366; /* Cor padrão do WhatsApp */
+  
+    /* Estilo quando o mouse passa por cima */
+  
+    
+  }
