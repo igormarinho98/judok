@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Judoca Ailton Sensei</h1>
+        <h1>Sensei Ailton Judoca </h1>
         
       <h3>
         <a className="instagram-link" href="https://www.instagram.com/judoca.ailton/">Página do instagram</a>
@@ -40,20 +40,20 @@ function App() {
         <Carousel swipeable={true} swipeScrollTolerance={10}>
           <div className="project-card">
             <img src={img1} alt="Projeto 1" />
-            <h2>O Esporte</h2>
-            <p>Descrição</p>
+            <h2>Atuação Pedagógica</h2>
+            <p>Sensei Ailton Leonardo</p>
           </div>
 
           <div className="project-card">
             <img src={img2} alt="Projeto 2" />
             <h2>Aulas Infantis</h2>
-            <p>Descrição</p>
+            <p>Mais de 20 anos de experiência com crianças a partir de 4 anos </p>
           </div>
 
           <div className="project-card">
             <img src={img2} alt="Projeto 3" />
-            <h2>Aulas Infantis</h2>
-            <p>Descrição</p>
+            <h2>Aulas para Adolescentes</h2>
+            <p>O Esporte como parte da formação dos valores do cidadão, principalmente nas fases de formação e desenvolvimento pessoal.</p>
           </div>
         </Carousel>
       </main>
