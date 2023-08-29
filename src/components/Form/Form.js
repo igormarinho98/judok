@@ -19,9 +19,9 @@ const Form = () => {
     <div className="formulario">
       <h2>Contato  
       </h2>
-        <a className="link-wpp" href='https://wa.me/5511972192454'>Saiba Mais no WhatsApp Clicando aqui</a> 
-      
       <a className="instagram-link" href="https://www.instagram.com/judoca.ailton/">Clique aqui para acessar a Página do instagram </a>
+      <br></br>
+        <a className="link-wpp" href='https://wa.me/5511972192454'>Saiba Mais no WhatsApp Clicando aqui</a> 
     </div>
   );
 };

@@ -68,6 +68,21 @@ function App() {
           content="Quando os pais matriculam os filhos em algum esporte, procuram atividades que proporcionem horas agradáveis para os pequenos, mas que também gerem benefícios para eles."
         />
 
+<TextoDescricao
+    title="Formação Acadêmica"
+    content="Graduação em Educação Física  Universidade Ibirapuera (2009) "
+     
+        
+/>
+
+
+<TextoDescricao
+    title="Experiência"
+    content="Atuação em mais de 12 Instituições, com crianças e adolescentes desde 1993."
+     
+        
+/>
+
         <div>
           <Form className="form-css formulario" />
         </div>
